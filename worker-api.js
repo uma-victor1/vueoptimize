@@ -12,3 +12,4 @@ export const doHardWork = worker.doHardWork
 // export function sendMessage(msg){
 //     worker.postMessage(msg)
 // }
+

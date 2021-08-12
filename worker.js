@@ -5,12 +5,10 @@ const fns = {
         return msg.toUpperCase()
     },
     doHardWork() {
-        let i = 0;
-        while (i < 900000000) {
-          i++
-        }
-        return i
-      }
+      setTimeout(()=>{
+        console.log("do hard work");
+      },3000)
+  }
 }
 
 Comlink.expose(fns)
